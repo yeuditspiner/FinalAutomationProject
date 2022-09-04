@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/user1/Desktop/Ness/����� ��������/final_project/FinalProject">
+        <classes>
+            <class name="RegistrationAndAuthentication.RegistrationTest">
+                <methods>
+                    <include name="registrationTestCase1"/>
+                    <include name="registrationTestCase2"/>
+                    <include name="registrationTestCase3"/>
+                    <include name="registrationTestCase4"/>
+                    <include name="registrationTestCase5"/>
+                    <include name="registrationTestCase6"/>
+                    <include name="registrationTestCase7"/>
+                    <include name="registrationTestCase8"/>
+                    <include name="registrationTestCase9"/>
+                    <include name="registrationTestCase10"/>
+                    <include name="registrationTestCase11"/>
+                    <include name="registrationTestCase12"/>
+                    <include name="registrationTestCase13"/>
+                    <include name="registrationTest"/>
+                </methods>
+            </class>
+            <class name="RegistrationAndAuthentication.LogOutTest">
+                <methods>
+                    <include name="LogOutTestCase1"/>
+                </methods>
+            </class>
+            <class name="RegistrationAndAuthentication.LoginTest">
+                <methods>
+                    <include name="logInTestCase1"/>
+                    <include name="logInTestCase2"/>
+                    <include name="LogInTestCase3"/>
+                    <include name="logInTestCase4"/>
+                </methods>
+            </class>
+
+            <class name="Search.SearchTest">
+                <methods>
+                    <include name="searchTestCase1"/>
+                    <include name="searchTestCase2"/>
+                    <include name="searchTestCase3"/>
+                    <include name="searchTestCase4"/>
+                </methods>
+            </class>
+            <class name="ShoppingCart.ShoppingCartTest">
+                <methods>
+                    <include name="shoppingCartTestCase1"/>
+                    <include name="shoppingCartTestCase2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
